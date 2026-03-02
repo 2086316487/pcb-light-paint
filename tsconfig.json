@@ -1,0 +1,30 @@
+{
+	"compilerOptions": {
+		"incremental": true,
+		"target": "ESNext",
+		"lib": ["ESNext", "DOM"],
+		"experimentalDecorators": true,
+		"module": "CommonJS",
+		"moduleResolution": "Node10",
+		"resolveJsonModule": true,
+		"allowJs": true,
+		"sourceMap": false,
+		"outDir": "./dist/",
+		"allowSyntheticDefaultImports": true,
+		"esModuleInterop": true,
+		"types": ["@jlceda/pro-api-types", "node"],
+		"forceConsistentCasingInFileNames": true,
+		"strict": true,
+		"noImplicitAny": true,
+		"strictNullChecks": true,
+		"strictFunctionTypes": true,
+		"strictBindCallApply": true,
+		"strictPropertyInitialization": true,
+		"noImplicitThis": true,
+		"useUnknownInCatchVariables": true,
+		"alwaysStrict": true,
+		"isolatedModules": true,
+		"skipLibCheck": true
+	},
+	"include": ["./src/"]
+}

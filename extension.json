@@ -1,0 +1,45 @@
+{
+	"name": "pcb-light-paint",
+	"uuid": "1dd9f8dd5e594c51a983e8e18021c8aa",
+	"displayName": "PCB灯光画",
+	"description": "在 PCB 场景中完成图片编辑、图层分离与一键生成 PCB 灯光画图元。",
+	"version": "0.1.6",
+	"publisher": "Chris",
+	"engines": {
+		"eda": "^2.3.0"
+	},
+	"license": "Apache-2.0",
+	"repository": {
+		"type": "extension-store",
+		"url": ""
+	},
+	"categories": "Other",
+	"keywords": ["PCB", "LightPaint", "ImageToPCB", "Mask", "Artwork"],
+	"images": {
+		"logo": "./images/logo.png",
+		"banner": "./images/banner.jpg"
+	},
+	"activationEvents": {},
+	"entry": "./dist/index",
+	"dependentExtensions": {},
+	"headerMenus": {
+		"pcb": [
+			{
+				"id": "PCB灯光画",
+				"title": "PCB灯光画",
+				"menuItems": [
+					{
+						"id": "OpenWorkbench",
+						"title": "打开工作台",
+						"registerFn": "openLightPaint"
+					},
+					{
+						"id": "About",
+						"title": "关于...",
+						"registerFn": "about"
+					}
+				]
+			}
+		]
+	}
+}
